@@ -9,6 +9,7 @@ export default function Page() {
       <p className="mb-4">
         {`Pizza enthusiast and burger advocate. Proud father to 3 shits.`}
       </p>
+      <img src="https://i.imgur.com/fFUU794.png" width="600" height="600"></img>
     </section>
   )
 }
