@@ -10,6 +10,9 @@ const navItems = {
   '/sedan': {
     name: 'sedan',
   },
+  '/dj': {
+    name: 'dj dudino',
+  },
 }
 
 export function Navbar() {
