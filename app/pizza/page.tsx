@@ -8,8 +8,15 @@ export const metadata = {
 export default function Page() {
   return (
     <section>
+        <h2 className="mb-8 text-2xl font-semibold tracking-tighter">
+          My Top Toppings
+        </h2>
         <p className="mb-4">
-            {`I think mine quite nice. I like the shape.`}
+          <ul>
+            <li>Calabresa</li>
+            <li>Nutella</li>
+            <li>Catupiry</li>
+          </ul>
         </p>
     </section>
   )
