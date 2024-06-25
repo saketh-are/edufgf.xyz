@@ -8,7 +8,7 @@ export const metadata = {
 export default function Page() {
   return (
     <section>
-        <img src="https://i.imgur.com/5FS45Kp.png"></img>
+        <img src="https://i.imgur.com/29vhKyE.png"></img>
         <h2 className="mb-8 text-2xl font-semibold tracking-tighter">
           My Top Toppings
         </h2>
@@ -16,6 +16,7 @@ export default function Page() {
           <ul>
             <li>Calabresa</li>
             <li>Nutella</li>
+            <li>Meat Lovers</li>
             <li>Catupiry</li>
           </ul>
         </p>
