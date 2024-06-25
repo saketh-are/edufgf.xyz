@@ -1,0 +1,31 @@
+.faq-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.faq-item {
+  margin-top: 20px;
+}
+
+.faq-item h2 {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.faq-item p {
+  padding: 10px;
+  display: none;
+  background-color: #f9f9f9;
+  margin: 0;
+}

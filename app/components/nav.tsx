@@ -13,6 +13,9 @@ const navItems = {
   '/dj': {
     name: 'dj dudino',
   },
+  '/faq': {
+    name: 'faq',
+  },
 }
 
 export function Navbar() {
