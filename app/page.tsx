@@ -9,12 +9,7 @@ export default function Page() {
       <p className="mb-4">
         {`Funny caring responsible smart father`}
       </p>
-      <p>
-        big wallet
-        big dick
-        big apartment
-        big man
-      </p>
+      <br/>
       <img src="https://i.imgur.com/fFUU794.png" width="600" height="600"></img>
     </section>
   )
