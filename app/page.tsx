@@ -1,16 +1,16 @@
+"use client";
+
 import { BlogPosts } from 'app/components/posts'
+import Qualities from 'app/components/qualities'
 
 export default function Page() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        dudu
+        eduardo felipe gama ferreira
       </h1>
-      <p className="mb-4">
-        {`Funny caring responsible smart father`}
-      </p>
-      <br/>
-      <img src="https://i.imgur.com/fFUU794.png" width="600" height="600"></img>
+
+      <Qualities/>
     </section>
   )
 }

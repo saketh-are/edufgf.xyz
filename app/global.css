@@ -148,3 +148,17 @@ table {
 .title {
   text-wrap: balance;
 }
+
+.marquee {
+  position: relative;
+  width: 150%;
+  height: 120px;
+  overflow: hidden;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.marquee_inner {
+  transform: translateY(-50%);
+  margin-top: -30px;
+}
