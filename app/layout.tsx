@@ -38,9 +38,7 @@ export default function RootLayout({
           <Analytics />
           <SpeedInsights />
         </main>
-      <React.StrictMode>
         <Bounce />
-      </React.StrictMode>
       </body>
     </html>
   )
