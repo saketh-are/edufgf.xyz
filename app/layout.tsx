@@ -1,4 +1,7 @@
+"use client";
+
 import './global.css'
+import React, { useEffect, useRef } from 'react';
 import type { Metadata } from 'next'
 import { GeistSans } from 'geist/font/sans'
 import { GeistMono } from 'geist/font/mono'
@@ -8,33 +11,8 @@ import { SpeedInsights } from '@vercel/speed-insights/next'
 import Footer from './components/footer'
 import { baseUrl } from './sitemap'
 
-export const metadata: Metadata = {
-  metadataBase: new URL(baseUrl),
-  title: {
-    default: 'Date Dudu',
-    template: '%s | Date Dudu',
-  },
-  description: 'This is my portfolio.',
-  openGraph: {
-    title: 'My Portfolio',
-    description: 'This is my portfolio.',
-    url: baseUrl,
-    siteName: 'My Portfolio',
-    locale: 'en_US',
-    type: 'website',
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
-}
+import ReactDOM from 'react-dom';
+import Bounce from './bounce/bounce';
 
 const cx = (...classes) => classes.filter(Boolean).join(' ')
 
@@ -60,6 +38,9 @@ export default function RootLayout({
           <Analytics />
           <SpeedInsights />
         </main>
+      <React.StrictMode>
+        <Bounce />
+      </React.StrictMode>
       </body>
     </html>
   )

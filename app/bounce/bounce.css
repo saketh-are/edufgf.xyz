@@ -1,0 +1,14 @@
+.Bounce {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.moving-gif {
+  position: absolute;
+  transition: left 2s ease-in-out, top 2s ease-in-out;
+  z-index: 1000;
+}
