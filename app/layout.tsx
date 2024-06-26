@@ -12,7 +12,6 @@ import Footer from './components/footer'
 import { baseUrl } from './sitemap'
 
 import ReactDOM from 'react-dom';
-import Bounce from './bounce/bounce';
 
 const cx = (...classes) => classes.filter(Boolean).join(' ')
 
@@ -38,7 +37,6 @@ export default function RootLayout({
           <Analytics />
           <SpeedInsights />
         </main>
-        <Bounce />
       </body>
     </html>
   )

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import './bounce.css';
 
-const Bounce = () => {
+const Bounce = ({ src }) => {
   const gifRef = useRef(null); // Create a reference for the GIF element
 
   useEffect(() => {
@@ -35,7 +35,7 @@ const Bounce = () => {
     <div className="Bounce">
       <img
         ref={gifRef} // Attach the reference to the img element
-        src="https://i.imgur.com/iDH6Yjw.gif"
+        src={src}
         alt="Moving GIF"
         width="300px"
         className="moving-gif"

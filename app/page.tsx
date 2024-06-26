@@ -1,7 +1,7 @@
 "use client";
 
-import { BlogPosts } from 'app/components/posts'
 import Qualities from 'app/components/qualities'
+import Bounce from './bounce/bounce';
 
 export default function Page() {
   return (
@@ -11,6 +11,8 @@ export default function Page() {
       </h1>
 
       <Qualities/>
+
+      <Bounce src="https://i.imgur.com/iDH6Yjw.gif" />
     </section>
   )
 }
