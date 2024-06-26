@@ -11,7 +11,7 @@ const navItems = {
     name: 'sedan',
   },
   '/dj': {
-    name: 'dj dudino',
+    name: 'dj',
   },
   '/faq': {
     name: 'faq',

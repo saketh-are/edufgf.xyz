@@ -9,10 +9,10 @@ export default function Page() {
   return (
     <section>
         <img src="https://i.imgur.com/29vhKyE.png"></img>
+        <br/>
         <h2 className="mb-8 text-2xl font-semibold tracking-tighter">
           My Top Toppings
         </h2>
-        <br/>
         <p className="mb-4">
           <ul>
             <li>Calabresa</li>

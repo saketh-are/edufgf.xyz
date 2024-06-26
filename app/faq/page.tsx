@@ -12,6 +12,18 @@ const FAQ = () => {
 
   const faqs = [
     {
+      question: "How many wives are you looking for?",
+      answer: "1"
+    },
+    {
+      question: "Do you have a green card?",
+      answer: "No, but I used to"
+    },
+    {
+      question: "What it was like to immigrate to the US amidst a global pandemic.",
+      answer: "eatmypoo.com"
+    },
+    {
       question: "What is your return policy?",
       answer: "Our return policy is simple. If you are not satisfied with your purchase, you can return it within 30 days for a full refund."
     },
