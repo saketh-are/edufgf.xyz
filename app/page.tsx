@@ -6,7 +6,7 @@ import Bounce from './bounce/bounce';
 export default function Page() {
   return (
     <section>
-      <img src="https://i.imgur.com/3hrXJio.png" width="100%" center />
+      <img src="https://i.imgur.com/3hrXJio.png" width="100%" />
       <br/>
 
       <h1 className="mb-8 text-3xl font-semibold tracking-tighter">
@@ -15,7 +15,7 @@ export default function Page() {
 
       <Qualities/>
 
-      <Bounce src="https://i.imgur.com/iDH6Yjw.gif" />
+      <Bounce src="https://i.imgur.com/4VScj0J.gif" width="400px" />
     </section>
   )
 }

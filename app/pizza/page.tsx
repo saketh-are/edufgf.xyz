@@ -18,7 +18,7 @@ export default function Page() {
           <li>Catupiry</li>
         </ul>
 
-        <Bounce src="https://i.imgur.com/Kl66188.gif" />
+        <Bounce src="https://i.imgur.com/Kl66188.gif" width="120px"/>
     </section>
   )
 }
