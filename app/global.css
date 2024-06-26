@@ -151,8 +151,7 @@ table {
 
 .marquee {
   position: relative;
-  width: 150%;
-  height: 120px;
+  width: 130%;
   overflow: hidden;
   left: 50%;
   transform: translateX(-50%);
@@ -160,5 +159,9 @@ table {
 
 .marquee_inner {
   transform: translateY(-50%);
-  margin-top: -30px;
+}
+
+.marquee_image {
+  height: auto;
+  margin: 0 10px; /* Optional: space between images */
 }

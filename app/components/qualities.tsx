@@ -1,16 +1,31 @@
 import { Component } from 'react';
 import Marquee from "react-fast-marquee";
 
+// funny caring responsible smart father
 class Qualities extends Component {
   render() {
     return (
         <div className="marquee">
         <Marquee className="marquee_inner">
-            <img src="https://i.imgur.com/MLFhjr5.png"/>
-            <img src="https://i.imgur.com/kucaSD1.png"/>
-            <img src="https://i.imgur.com/faPLBNF.png"/>
-            <img src="https://i.imgur.com/qSqBrRo.png"/>
-            <img src="https://i.imgur.com/TEj9r0q.png"/>
+            <div className="marquee_image" style={{width: 170}}>
+              <img src="https://i.imgur.com/RQiR0YK.png"/>
+            </div>
+
+            <div className="marquee_image" style={{width: 150}}>
+              <img src="https://i.imgur.com/QxNiBAS.png"/>
+            </div>
+
+            <div className="marquee_image" style={{width: 150}}>
+              <img src="https://i.imgur.com/rWej2F5.png"/>
+            </div>
+
+            <div className="marquee_image" style={{width: 120}}>
+              <img src="https://i.imgur.com/fbqmOeJ.png"/>
+            </div>
+
+            <div className="marquee_image" style={{width : 150}}>
+              <img src="https://i.imgur.com/r0cYKwc.png"/>
+            </div>
         </Marquee>
         </div>
     );
