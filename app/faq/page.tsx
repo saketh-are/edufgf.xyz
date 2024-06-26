@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
-import './FAQ.css';
+import './faq.css';
 
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(null);

@@ -25,7 +25,7 @@ const Bounce = () => {
     bounce();
 
     // Set interval to call bounce every second
-    const intervalId = setInterval(bounce, 1500); // Change direction every second
+    const intervalId = setInterval(bounce, 2500); // Change direction every second
 
     // Cleanup interval on component unmount
     return () => clearInterval(intervalId);
@@ -35,9 +35,9 @@ const Bounce = () => {
     <div className="Bounce">
       <img
         ref={gifRef} // Attach the reference to the img element
-        src="https://www.dessertfortwo.com/wp-content/uploads/2022/08/How-to-Make-a-Milkshake-11-735x1103.jpg"
+        src="https://i.imgur.com/iDH6Yjw.gif"
         alt="Moving GIF"
-        width="100px"
+        width="300px"
         className="moving-gif"
       />
     </div>
