@@ -13,9 +13,6 @@ const navItems = {
   '/dj': {
     name: 'dj',
   },
-  '/faq': {
-    name: 'faq',
-  },
 }
 
 export function Navbar() {
