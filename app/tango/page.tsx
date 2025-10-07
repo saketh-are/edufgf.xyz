@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = 'force-dynamic';
 
 import React, { useMemo, useState } from "react";
 
@@ -217,7 +218,9 @@ function lineTriplesIndices(line: MaybeCell[]): number[] {
     // v sandwiched
     if (i >= 1 && i + 1 < n && line[i - 1] === v && line[i + 1] === v) { bad.add(i); bad.add(i - 1); bad.add(i + 1); }
   }
-  return [...bad.values()];
+  const out: number[] = [];
+  bad.forEach(v => out.push(v));
+  return out;
 }
 
 function lineCounts(line: MaybeCell[]): { sun: number; moon: number } {
